@@ -23,12 +23,20 @@
           "localUri": "annotations/annotation.xml"
         }
       },
+      "labelsAnnotations": {
+        "type": "ODataAnnotation",
+        "uri": "annotations/labelsAnnotations.xml",
+        "settings": {
+          "localUri": "annotations/labelsAnnotations.xml"
+        }
+      },
       "mainService": {
         "uri": "/v2processor/",
         "type": "OData",
         "settings": {
           "annotations": [
-            "annotation"
+            "annotation",
+            "labelsAnnotations"
           ],
           "localUri": "localService/mainService/metadata.xml",
           "odataVersion": "4.01"
