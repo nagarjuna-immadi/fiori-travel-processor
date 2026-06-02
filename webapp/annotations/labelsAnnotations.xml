@@ -9,6 +9,7 @@
         <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="local.labels">
             <Annotations Target="V2TravelService.Travel/TravelID">
                 <Annotation Term="Common.Label" String="{@i18n>travel}"/>
+                <Annotation Term="Common.Text" Path="Description"></Annotation>
             </Annotations>
             <Annotations Target="V2TravelService.Travel/CustomerFullName">
                 <Annotation Term="Common.Label" String="{@i18n>customer}"/>

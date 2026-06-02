@@ -73,9 +73,13 @@
                         </PropertyValue>
                     </Record>
                 </Annotation>
-            </Annotations>
-            <Annotations Target="V2TravelService.Travel/TravelID">
-                <Annotation Term="Common.Text" Path="Description"></Annotation>
+                <Annotation Term="UI.SelectionFields">
+                    <Collection>
+                        <PropertyPath>to_Agency_AgencyID</PropertyPath>
+                        <PropertyPath>to_Customer_CustomerID</PropertyPath>
+                        <PropertyPath>BeginDate</PropertyPath>
+                    </Collection>
+                </Annotation>
             </Annotations>
         </Schema>
     </edmx:DataServices>
