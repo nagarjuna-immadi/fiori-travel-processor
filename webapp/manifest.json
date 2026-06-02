@@ -136,12 +136,13 @@
               "controlConfiguration": {
                 "@com.sap.vocabularies.UI.v1.LineItem": {
                   "tableSettings": {
-                    "type": "ResponsiveTable"
+                    "type": "ResponsiveTable",
+                    "showRowCount": false
                   }
                 }
               },
               "initialLoad": "Enabled",
-              "defaultTemplateAnnotationPath": "com.sap.vocabularies.UI.v1.SelectionPresentationVariant#table"
+              "defaultTemplateAnnotationPath": "com.sap.vocabularies.UI.v1.PresentationVariant"
             }
           }
         },

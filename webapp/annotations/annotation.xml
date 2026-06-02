@@ -56,31 +56,20 @@
                         </PropertyValue>
                     </Record>
                 </Annotation>
-                <Annotation Term="UI.SelectionPresentationVariant" Qualifier="table">
-                    <Record Type="UI.SelectionPresentationVariantType">
-                        <PropertyValue Property="PresentationVariant">
-                            <Record Type="UI.PresentationVariantType">
-                                <PropertyValue Property="Visualizations">
-                                    <Collection>
-                                        <AnnotationPath>@UI.LineItem</AnnotationPath>
-                                    </Collection>
-                                </PropertyValue>
-                                <PropertyValue Property="SortOrder">
-                                    <Collection>
-                                        <Record Type="Common.SortOrderType">
-                                            <PropertyValue Property="Property" PropertyPath="TravelID"/>
-                                            <PropertyValue Property="Descending" Bool="true"/>
-                                        </Record>
-                                    </Collection>
-                                </PropertyValue>
-                            </Record>
+                <Annotation Term="UI.PresentationVariant">
+                    <Record Type="UI.PresentationVariantType">
+                        <PropertyValue Property="Visualizations">
+                            <Collection>
+                                <AnnotationPath>@UI.LineItem</AnnotationPath>
+                            </Collection>
                         </PropertyValue>
-                        <PropertyValue Property="SelectionVariant">
-                            <Record Type="UI.SelectionVariantType">
-                                <PropertyValue Property="SelectOptions">
-                                    <Collection/>
-                                </PropertyValue>
-                            </Record>
+                        <PropertyValue Property="SortOrder">
+                            <Collection>
+                                <Record Type="Common.SortOrderType">
+                                    <PropertyValue Property="Property" PropertyPath="TravelID"/>
+                                    <PropertyValue Property="Descending" Bool="true"/>
+                                </Record>
+                            </Collection>
                         </PropertyValue>
                     </Record>
                 </Annotation>
