@@ -14,6 +14,15 @@
                     </Collection>
                 </Annotation>
             </Annotations>
+            <Annotations Target="V2TravelService.EntityContainer/Travel">
+                <Annotation Term="Common.DraftRoot">
+                    <Record Type="Common.DraftRootType">
+                        <PropertyValue Property="ActivationAction" String="V2TravelService.draftActivate"/>
+                        <PropertyValue Property="EditAction" String="V2TravelService.draftEdit"/>
+                        <PropertyValue Property="PreparationAction" String="V2TravelService.draftPrepare"/>
+                    </Record>
+                </Annotation>
+            </Annotations>
         </Schema>
     </edmx:DataServices>
 </edmx:Edmx>
